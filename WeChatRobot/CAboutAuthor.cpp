@@ -49,11 +49,11 @@ BOOL CAboutAuthor::OnInitDialog()
 {
 	CDialogEx::OnInitDialog();
 
-	m_kanxue = L"鬼手56";
-	m_wuaipojie = L"鬼手56";
-	m_github = L"https://github.com/TonyChen56";
-	m_csdn = L"https://blog.csdn.net/qq_38474570";
-	m_email = L"tonychen56@qq.com";
+	m_kanxue = L"";
+	m_wuaipojie = L"";
+	m_github = L"";
+	m_csdn = L"";
+	m_email = L"aohanhongzhi@qq.com";
 	UpdateData(FALSE);
 	return TRUE;  // return TRUE unless you set the focus to a control
 				  // 异常: OCX 属性页应返回 FALSE
